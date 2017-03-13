@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>An Incomplete Manifesto for Growth</title>
+
+    <style media="screen">
+      body {font-family: 'avenir';
+            font-size:10px;
+            line-height: 30px;
+
+          }
+
+
+    div {width: 800px;
+        margin-left:100px;
+        }
+
+        .one {
+          border: 2px;
+        border-style: dashed;;
+        border-color: navy;
+          width: 80px;
+          padding-left: 10px;
+          font-weight:bold;
+          font-size:10px;
+          margin-left:100px;
+          margin-top: 50px;
+
+        }
+
+        .two {
+          border: 2px;
+          border-style: dashed;;
+          border-color: navy;
+            width: 80px;
+            padding-left: 10px;
+            font-weight:bold;
+          font-size:10px;
+          margin-left:300px;
+          margin-top: -320px;
+
+        }
+
+        .three {
+          border: 2px;
+          border-style: dashed;;
+          border-color: navy;
+            width: 80px;
+            padding-left: 10px;
+            font-weight:bold;
+          font-size:10px;
+          margin-left:500px;
+          margin-top: -320px;
+
+        }
+
+        .four {
+          border: 2px;
+          border-style: dashed;;
+          border-color: navy;
+            width: 80px;
+            padding-left: 10px;
+            font-weight:bold;
+          font-size:10px;
+          margin-left:700px;
+          margin-top: -320px;
+
+
+
+        }
+        .five {
+          border: 2px;
+          border-style: dashed;;
+          border-color: navy;
+            width: 80px;
+            padding-left: 10px;
+            font-weight:bold;
+          font-size:10px;
+          margin-left:900px;
+          margin-top: -150px;
+
+
+
+        }
+
+
+    h1 {text-align: center;
+      border: 2px;
+      border-style: dashed;;
+      border-color: navy;
+        width: 1000px;
+
+    }
+
+    h2 {margin-left: 200px;
+      border: 5px solid;
+      }
+
+
+    </style>
+
+
+
+
+  </head>
+  <body>
+
+    <div>
+<h1>AN INCOMPLETE MANIFESTO FOR GROWTH</h1>
+<h3>Bruce Mao</h3>
+
+<div class="one">
+<p>1.
+  <br>Allow <br>events <br>to <br>change <br>you. <br>You <br>have <br>to <br>be <br>willing<br> to<br> grow. <br>Growth<br> is <br>different <br>from<br> something<br> that<br> happens <br>to <br>you. <br>You <br>produce <br>it. <br>You <br> live <br> it. <br>The <br>prerequisites <br>for <br>growth: <br>the <br>openness <br>to <br>experience <br>events <br>and <br>the <br>willingness<br> to <br>be<br> changed <br>by<br> them.
+</p>
+
+</div>
+
+
+<div class="two">
+<p>2.
+<br>Forget <br>about<br> good. <br>Good <br>is <br>a <br>known<br> quantity. <br>Good <br>is <br>what<br> we <br>all <br>agree <br>on. <br>Growth <br>is <br>not<br> necessarily<br> good.<br> Growth <br>is <br>an <br>exploration <br>of <br>unlit <br>recesses <br>that <br>may <br>or <br>may <br>not <br>yield <br>to <br>our <br>research. <br>As <br>long <br>as<br> you<br> stick<br> to <br>good <br>you’ll<br> never <br>have <br>real <br>growth.
+</p>
+</div>
+
+
+<div class="three">
+<p>3.
+  <br>Process <br>is <br>more <br>important<br> than<br> outcome.<br> When<br> the <br>outcome <br>drives<br> the <br>process<br> we<br> will<br> only<br> ever <br>go <br>to <br>where<br> we’ve <br>already<br> been. <br>If <br>process<br> drives <br>outcome<br> we <br>may <br>not <br>know <br>where <br>we’re<br> going, <br>but <br>we <br>will <br>know <br>we<br> want <br>to<br> be<br> there.</p>
+</div>
+
+
+<div class="four">
+<p>4.<br>
+  Love <br>your <br>experiments <br>(as <br>you <br>would<br> an <br>ugly <br>child). <br>Joy <br>is<br> the<br> engine<br> of <br>growth. <br>Exploit <br>the <br>liberty <br>in <br>casting <br>your <br>work <br>as <br>beautiful <br>experiments,<br> iterations, <br>attempts, <br>trials, <br>and <br>errors. <br>Take <br>the <br>long <br>view <br>and <br>allow <br>yourself <br>the <br>fun <br>of <br>failure <br>every <br>day.</p>
+</div>
+
+
+<div class="five">
+  <p>5.<br>
+     Go <br>deep.<br> The <br>deeper <br>you <br>go <br>the <br>more <br>likely <br>you<br> will <br>discover <br>something <br>of <br>value.</p>
+</div>
+
+
+
+
+  </body>
+</html>
