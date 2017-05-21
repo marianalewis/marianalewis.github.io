@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Reader</title>
+
+
+
+
+    <style media="screen">
+
+
+
+    .container {
+      position: relative;
+      width: 100%;
+    }
+
+        .image {
+          display: block;
+          width: 100%;
+          height: 100%;
+        }
+
+
+
+
+    .overlay {
+      position: absolute;
+ top: 0;
+ bottom: 0;
+ left: 0;
+ right: 0;
+ height: 100%;
+ width: 100%;
+ opacity: 0;
+      transition: .7s ease;
+    }
+
+    .container:hover .overlay {
+      opacity: 1;
+    }
+
+    .text {
+      position: absolute;
+      text-transform: uppercase;
+      top: 10%;
+      left: 30%;
+      text-align: center;
+      font-size: 20px;
+      letter-spacing: 4px;
+      line-height: 10px;
+      font-family: 'arial';
+      left: 50%;
+      border: 2px solid;
+      padding: 10px;
+      border-color: darksalmon;
+      background-color: white;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+    }
+
+
+
+
+
+    .navigation {font-family: 'avenir';
+          font-size: 12px;
+          color: white;
+          text-transform: uppercase;
+          background-color: black;
+          border: 2px solid;
+          border-color: darksalmon;}
+
+
+          a:link    {color:white;
+                    background-color:transparent;
+                    text-decoration:none;
+                    }
+
+          a:visited {color:white;
+                    background-color:transparent;
+                    text-decoration:none;
+                    }
+
+
+
+    body    {
+            background-color: black;
+            position: absolute;
+
+            }
+
+
+
+      h1    {
+            font-family: 'avenir';
+            font-size:270px;
+            color: black;
+            text-align: center;
+            letter-spacing: -50px;
+            text-transform: uppercase;
+            padding: 0px;
+            margin: 50px;
+            background-color: white;
+            border: 2px solid;
+            border-color: darksalmon;
+
+            }
+
+
+      .title    {font-family: 'avenir';
+      font-size:55px;
+      color: black;
+      text-align: right;
+      letter-spacing: 0px;
+      padding: 20px;
+      padding-bottom: 10px;
+      margin-left:630px;
+      margin-right: 50px;
+      background-color: white;
+      border: 2px solid;
+      border-color: darksalmon;
+      line-height: 25px;
+
+
+      }
+
+      .title2 {font-family: 'arial';
+      font-size:85px;
+      color: black;
+      text-align: right;
+      letter-spacing: 9px;
+      padding: 50px;
+      padding-right: 10px;
+      padding-bottom: 20px;
+      margin-left:630px;
+      margin-right: 50px;
+      background-color: white;
+      border: 2px solid;
+      border-color: darksalmon;
+      line-height: 40px;
+
+      }
+
+
+
+
+    .title3 {
+    font-family: 'avenir';
+    font-size:90px;
+    color: black;
+    text-align: left;
+    letter-spacing: -11px;
+    padding: 0px;
+    margin-left:550px;
+    margin-right: 50px;
+    background-color: white;
+    border: 2px solid;
+    border-color: darksalmon;
+
+    }
+
+    .michael {
+      font-family: 'arial';
+      font-size: 20px;
+      margin-top: -25px;
+      margin-left: 650px;
+      margin-right: 60px;
+      background-color: white;
+      text-align: right;
+    }
+
+
+
+            .fc {
+              font-family: 'arial';
+              font-size: 15px;
+              margin-top: -40px;
+              margin-left: 480px;
+              margin-right: 480px;
+              background-color: white;
+              text-align: center;
+              border: 2px solid;
+              border-color: darksalmon;
+            }
+
+            .sex {font-family: 'arial';
+            font-size: 22.1px;
+            letter-spacing: 7.1px;
+            line-height: 33px;
+            background-color: white;
+            text-align: justify;
+            border: 2px solid;
+            margin: 50px;
+            border-color: darksalmon;
+
+            }
+
+
+            .form {font-family: 'avenir';
+            font-size: 45px;
+            font-weight: bold;
+            background-color: white;
+            letter-spacing: 1px;
+            border: 2px solid;
+            margin-left: 200px;
+            margin-right: 570px;
+            border-color: darksalmon;
+
+            }
+
+            .authorship {
+              font-family: 'arial';
+              font-size: 17px;
+              margin-top: -20px;
+              margin-left: 150px;
+              margin-right: 920px;
+              background-color: white;
+              letter-spacing: -1px;
+              text-align: justify;
+              border: 2px solid;
+              border-color: darksalmon;
+            }
+
+
+
+      .image1 {
+              margin: 50px;
+              border: 2px solid;
+              background-color: white;
+              border-color: darksalmon;
+
+      }
+
+
+
+      .image2 {
+              margin: 50px;
+              border: 2px solid;
+              background-color: white;
+              border-color: darksalmon;
+
+      }
+
+
+      .image3 {
+              margin-right: 160px;
+              margin-left: 470px;
+              border: 2px solid;
+              background-color: black;
+              border-color: darksalmon;
+
+      }
+
+      .strokeme
+{
+    color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+
+
+
+
+
+</style>
+
+  </head>
+  <body>
+<div class='nav'>
+<div class='navigation'><A HREF="#fuckcontent">fuck content</a>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;
+<A HREF="#sexmachina">sexmachina</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<A HREF="#authorship">graphic authorship</a></div></div>
+  <br><br><br>
+  <br><br><br>
+  <br><br><br>
+  <br><br><br>
+  <br><br><br>
+  <br><br><br>
+
+
+<h1>READER</h1>
+<br><br>
+<br><br><br><br>
+<br><br><br><br>
+<br><br>
+<br><br><br>
+<br><br><br>
+<br><br><br>
+
+<A NAME="fuckcontent">
+<div class='title'><strong>FUCK</strong><br>
+  <div class='strokeme'>CONTENT<br></div>
+<small><small><small><small><small>Michael Rock
+</small></small></small></small></small>
+</div>
+
+<br><br>
+<br><br><br><br>
+<br><br>
+<br><br>
+<div class="container">
+  <div class='image1'>
+  <img src="http://3.bp.blogspot.com/-khtSG9M1rJE/UJW9w_KX6HI/AAAAAAAABnQ/vUiY_rIA0Qg/s1600/jan+van+toorn+-+delight_0001p.jpg" alt="FuckContent" style="width:1157px;height:1505px;">
+  <div class="overlay">
+    <div class="text">
+      <div class='strokeme'>
+        The elements we must master are not the content narratives but the devices of the telling.</div></div>
+  </div>
+</div>
+</div>
+
+<div class='fc'>Our content is, perpetually, Design itself.</div>
+
+<br><br>
+<br><br><br><br>
+<br><br><br><br>
+<br><br><br><br>
+<br><br><br><br>
+<br><br><br><br>
+<br><br><br><br>
+<br><br><br>
+<br><br><br>
+<br><br><br>
+
+
+<A NAME="sexmachina">
+<div class='title2'>SEX&nbsp;&nbsp;<br>
+  MACHINA<br><br>
+<small><small><small><small><small><small><small><small><center>Michael Rock</center>
+</small></small></small></small></small>
+</div>
+
+
+
+<br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br>
+<div class='sex'>
+Not since &nbsp;Goldfinger dumped the &nbsp;gilt corpse of his &nbsp;double-crossing gal pal in James Bond’s &nbsp;bed has the metalicized &nbsp;body had such a &nbsp;cultural moment. The &nbsp;&nbsp;intergalactic sheen of the &nbsp;inorganic seems &nbsp;omnipresent, &nbsp;tinging everything &nbsp;from eyes, lips and nails to gilded temporary tattoos, &nbsp;cutaneous body &nbsp;adornments, &nbsp;to even the most ubiquitous &nbsp;hand-held device, the rose &nbsp;gold&nbsp;&nbsp; iPhone 6.
+</div>
+
+<div class="container">
+  <div class='image2'>
+  <img src="http://2x4.org/media/files/3fee19285a4651078c2698ab5b871f23.jpg" alt="Sexmachina" style="width:1157px;height:1120px;">
+  <div class="overlay">
+    <div class="text">
+      <div class='strokeme'>
+        The comingling of flesh and metal agitates an underlying contemporary neurosis: Where does the body stop and the machine take over?</div></div>
+  </div>
+</div>
+</div>
+
+
+
+
+
+<br><br><br>
+<br><br><br>
+<br><br><br>
+
+<br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br>
+<div class='form'>
+“Form is <div class='strokeme' style="display: inline;">replaced</div> by
+<br>&nbsp; exchange.”
+</div>
+
+
+
+
+<br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br>
+
+
+<A NAME="authorship">
+<div class='title3'><strong>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GRAPHIC<br>
+  AUTHORSHIP</strong>
+</div>
+
+<div class='michael'>Michael Rock</div>
+
+
+
+<br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br>
+<br><br><br>
+
+
+<div class="container">
+  <div class='image3'>
+  <img src="https://s-media-cache-ak0.pinimg.com/736x/47/89/99/478999caaf88f2544e79225466d06855.jpg" alt="Authorship" style="width:600px;height:425px;">
+  <div class="overlay">
+    <div class="text">
+      <div class='strokeme'>
+        Perhaps, in the end, authorship is not a very convincing metaphor for the activity we understand as design.</div></div>
+  </div>
+</div>
+</div>
+
+
+
+
+<div class='authorship'>
+While theories of graphic authorship may change the way work is made, critics must still question what it does and how it does it, not where it comes from.</div>
+
+
+
+
+<br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br>
+<br><br><br>
+<br><br><br>
+<br><br><br><br><br><br>
+<br><br><br>
+<br><br><br>
+
+
+
+
+
+
+<div class='navigation'><A HREF="#fuckcontent">
+      fuck content</a>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;
+<A HREF="#sexmachina">sexmachina</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<A HREF="#authorship">graphic authorship</a></div>
+
+
+
+
+  </body>
+</html>

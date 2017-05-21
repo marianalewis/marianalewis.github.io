@@ -1,0 +1,35 @@
+.title {font-family: 'arial';}
+
+
+.blueheader {color:blue;}
+
+.redheader {color:red;}
+
+
+.number {color:orange;
+        font-size: 30px;
+        font-family: 'avenir';}
+
+.number:hover {background-color: red;
+              color: blue;}
+
+
+
+.footnote {position: fixed;
+          bottom: 0px;
+          left: 10px;
+          font-family: 'arial';
+          display: none;
+        }
+
+
+.footnote.showme {display:block;
+
+              }
+
+
+.metahaven.orange {color:orange;
+                  font-size: 12px;
+                  transition: 2s;}
+
+.metahaven {transition: 2s;}
